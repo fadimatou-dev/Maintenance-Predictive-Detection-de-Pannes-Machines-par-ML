@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (ne pas uploader les datasets)
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.json
+
+# Modèles sauvegardés
+*.pkl
+*.joblib
+*.model
+
+# SHAP / outputs générés
+outputs/*.csv
+outputs/*.png
+outputs/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
